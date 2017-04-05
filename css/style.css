@@ -1,0 +1,42 @@
+/* -------------------
+		Collapse
+----------------------*/
+.collapseCss {
+	margin-top: 50px;
+	width: 50%;
+}
+
+.collapseCss .collapseContent {
+	margin-bottom: 4px;
+	margin-bottom: 15px;
+}
+
+.collapseCss .collapseHeader, .collapseCss .collapseBody {
+	padding: 10px;
+	display: block;
+	border: 1px solid #dbdbdb;
+}
+
+.collapseCss .collapseHeader {
+	width: 100%;
+	border: 1px solid #dbdbdb;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color .15s ease-in-out;
+}
+
+.collapseCss .collapseHeader:hover {
+	background-color: #dbdbdb;
+}
+
+.collapseCss .collapseBody {
+	background-color: #f4f4f4;
+	margin-top: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	display: none;
+}
+
+.collapseCss .collapseContent:hover .collapseBody {
+	display: block;
+}
